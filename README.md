@@ -2,8 +2,6 @@
 
 # RTAdapter: Exploring the Upper Bound of In-Context Segmentation from a Data-Centric Perspective
 
-Ourui Fu, Lei Zhu, Qian Chen, Hangzhou He, Shuang Zeng, Kaiwen Li, Zhangxin Liang, Zhengjian Yao, Jinyi Ming, Jiakui Hu, Suhang Hu, and Yanye Lu
-
 **Peking University**
 
 </div>
