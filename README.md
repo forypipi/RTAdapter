@@ -8,13 +8,13 @@
 
 Predictions in in-context segmentation can vary substantially with the reference. Our target-as-reference diagnostic reveals considerable performance headroom while keeping the prediction model frozen.
 
-![Motivation](assets/figures/motivation.pdf)
+![Motivation](assets/figures/motivation.png)
 
 ## Method
 
 RTAdapter adapts reference foreground features to the current target through semantically regularized optimal transport, without updating the original prediction model or requiring target annotations.
 
-![RTAdapter framework](assets/figures/framework.pdf)
+![RTAdapter framework](assets/figures/framework.png)
 ## Main Results
 
 Results on PASCAL-5i and COCO-20i in **mIoU (%)**. Each entry shows **baseline → + RTAdapter**. `*` denotes our reproduction.
@@ -71,8 +71,8 @@ Use `ref_feats_prime` instead of `ref_feats` in the original prototype construct
 
 ## Visualization
 
-![Qualitative results on PASCAL-5$^i$](assets/figures/qualitative_pascal.pdf)
-![Qualitative results on COCO-20$^i](assets/figures/qualitative_coco.pdf)
+![Qualitative results on PASCAL-5$^i$](assets/figures/qualitative_pascal.png)
+![Qualitative results on COCO-20$^i](assets/figures/qualitative_coco.png)
 
 Results on PASCAL-5$^i (top) and COCO-20$^i (bottom). Columns compare reference annotations, target ground truth, baseline and adapted predictions, and priormaps. Target GT priormaps are used only for diagnostic visualization.
 ``
