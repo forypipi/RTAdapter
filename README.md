@@ -1,9 +1,5 @@
 <div align="center">
-
 # RTAdapter: Exploring the Upper Bound of In-Context Segmentation from a Data-Centric Perspective
-
-**Peking University**
-
 </div>
 
 ## Motivation
