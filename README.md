@@ -73,7 +73,7 @@ Use `ref_feats_prime` instead of `ref_feats` in the original prototype construct
 
 ![Qualitative results on PASCAL-5$^i$](assets/figures/qualitative_pascal.png)
 
-Results on PASCAL-5$^i$. Columns compare reference annotations, target ground truth, baseline and adapted predictions, and priormaps. Target GT priormaps are used only for diagnostic visualization.
+Results on PASCAL-5i. Columns compare reference annotations, target ground truth, baseline and adapted predictions, and priormaps. Target GT priormaps are used only for diagnostic visualization.
 
 ## Citation
 
