@@ -6,7 +6,6 @@ ref_feats_prime = sqadapter.transform(ref_feats, tar_feat)
 
 add new args:
 config_path = f"adapter_config/{args.benchmark}.yaml"
-# 2. 检查配置文件是否存在
 if not os.path.exists(config_path):
     raise FileNotFoundError(f"配置文件不存在：{config_path}，请检查路径和benchmark参数！")
 with open(config_path, 'r', encoding='utf-8') as f:
